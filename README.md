@@ -1,1 +1,4 @@
 # cadastro
+
+
+O arquivo script.js gerencia o envio do formulário de cadastro de usuários e também exibe a tabela com os dados em HTML. Ele começa com o formulário pelo seu id e adiciona um ouvinte de evento para o envio do formulário. Quando o usuário clica em "Cadastrar", o evento de submissão é capturado e a função anônima é chamada. O método preventDefault() impede que a página seja recarregada, permitindo a manipulação dos dados localmente. Os valores do nome e e-mail são obtidos dos campos de entrada usando o método .value. Em seguida, uma nova linha é adicionada à tabela de usuários com os dados fornecidos. Após a inserção, os campos de entrada são limpos, prontos para o próximo cadastro. Isso proporciona uma forma dinâmica e interativa de coletar e exibir informações sem a necessidade de recarregar a página.
